@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Revolver - ENPH 253</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer@1.8.0/dist/model-viewer.min.js"
+      integrity="sha384-UjHFJzxD0EIbcLEoaF9eAig6vwYl0T8MwQGq0M1GGJLB3IUEI5MDiD3pVfS8F3ku"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <model-viewer
+      id="model"
+      src="robot.glb"
+      alt="A 3D model of an astronaut"
+      ar
+      ar-modes="webxr scene-viewer quick-look"
+      exposure="0.5"
+      environment-image="neutral"
+      auto-rotate
+      camera-controls
+      interaction-prompt="none"
+      autoplay
+    ></model-viewer>
+  </body>
+</html>
